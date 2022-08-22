@@ -1,0 +1,22 @@
+/* styles.css */
+
+* {
+    background-color: tan;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.flex-container li {
+    border: 1px solid brown;
+    height: 100px;
+    flex: 1;
+}
