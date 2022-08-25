@@ -1,22 +1,43 @@
 /* styles.css */
 
-* {
-    background-color: tan;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: lightblue;
+    display: flex;
+}
+
+h2,
+img,
+p {
+    margin: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .flex-container {
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
 .flex-container li {
-    border: 1px solid brown;
     height: 100px;
     flex: 1;
 }
