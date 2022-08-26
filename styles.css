@@ -3,6 +3,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(238, 238, 238);
+    margin: 0px;
+    min-height: 100vh;
+    line-height: 1.5;
 }
 
 h1 {
@@ -13,13 +16,19 @@ h1 {
 
 .header {
     background-color: lightblue;
+    height: 72px;
     display: flex;
 }
 
 h2,
+h3,
 img,
 p {
-    margin: 14px;
+    margin: 24px;
+}
+
+img {
+    border: 2px solid rgb(66, 66, 66);
 }
 
 ul {
@@ -28,6 +37,8 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 32px;
+    margin: 8px;
 }
 
 .flex-container {
